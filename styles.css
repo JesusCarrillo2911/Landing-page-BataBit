@@ -29,6 +29,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: 334px;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 
 }
 header img{
@@ -46,4 +47,10 @@ header img{
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+.header--title-container h1{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
