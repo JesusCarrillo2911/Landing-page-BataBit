@@ -81,3 +81,11 @@ header img{
     text-decoration: none;
     color: var(--black);
 }
+.header--button span{
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-left: 12px;
+    background-image: url("./assets/icons/vector-dw.svg");
+
+}
