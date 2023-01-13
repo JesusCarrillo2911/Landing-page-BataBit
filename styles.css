@@ -119,3 +119,17 @@ header img{
     background-position: center;
     background-repeat: no-repeat;
 }
+.main-exchange-container--title h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.main-exchange-container--title p{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+}
