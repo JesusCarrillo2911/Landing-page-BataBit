@@ -133,13 +133,31 @@ header img{
     line-height: 1.8rem;
     color: #757575;
 }
+.main-tables-container{
+    display: flex;
+    width: 100%;
+    max-width: 650px;
+    gap: 50px;
+    margin: 0 auto;
+    height: 420px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table, .main-commission-table {
+    scroll-snap-align: center;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
     font-family: "inter", sans-serif;
+}
+.main-currency-table{
+    margin-left: 50px;
+}
+.main-commission-table{
+    margin-right: 50px;
 }
 .main-currency-table .currency-table--title{
     margin-bottom: 15px;
