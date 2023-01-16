@@ -139,7 +139,7 @@ header img{
     max-width: 650px;
     gap: 50px;
     margin: 0 auto;
-    height: 420px;
+    height: 400px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
