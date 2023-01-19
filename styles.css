@@ -435,6 +435,7 @@ header img{
     color: var(--black);
 }
 .plan-info-container .plan-card--price{
+    position: relative;
     padding: 5px 0;
     font-family: "inter", sans-serif;
     font-weight: bold;
@@ -442,12 +443,20 @@ header img{
     line-height: 5.3rem;
 }
 .plan-info-container .plan-card--price span{
+    position: absolute;
+    top: 7px;
+    left: 75px;
     width: 8px;
     height: 15px;
     font-family: "inter", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+.plan-card--simbol-dolar-tow-person{
+    position: absolute;
+    top: 7px;
+    left: 65px !important;
 }
 .plan-info-container .plan-card--saving{
     font-family: "inter", sans-serif;
